@@ -6,7 +6,7 @@ In case you want to upgrade it further, please do so.
 <h3>Instalation:</h3>
 <ol>
   <li>After downloading, add final directory of this script to path so that it can be used everywhere (e.g. export PATH="$HOME/bin/dw-timer/:$PATH" in .bashrc)</li>
-  <li>Change the path also in the scripts (default is ~/bin/dw-timer)</li>
+  <li>Change the path also in the scripts (default is ~/bin/dw-timer, only in the first cd)</li>
   <li>Make sure you have /dev/null (creation: mknod /dev/null c 1 3 ; chmod 666 /dev/null)</li>
 </ol>
 <h3>Usage:</h3>
