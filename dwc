@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cd ~/bin/dw-timer/
+
+if test -f curr-DWS.tmp; then
+	cp curr-DWS.tmp curr-time.tmp
+	date +"%Y-%m-%d %H:%M:%S" >> curr-time.tmp
+	echo ''
+	echo 'Current session time:'
+	python -c "from src import *; print(work_time('curr-time.tmp'))"
+	echo ""
+	rm curr-time.tmp
+else
+	echo ""
+	echo "Session isn't yet started!" 
+	echo ""
+fi
+
+cd - > /dev/null
