@@ -16,5 +16,6 @@ In case you want to upgrade it further, please do so.
   <li>type <code>dwc</code> to display current session time</li>
   <li>type <code>dwt</code> to display stats of last 7 recorded days and all-time DW time</li>
   <li>in case of accidental writing, forgetting of ending a session, etc., just adjust the data in DW_records.csv</li>
+  <li>A session can't be longer than a day</li>
   <li>just to make sure everything works smoothly, add a description to the first session</li>
 </ul>
