@@ -1,7 +1,6 @@
 <h1>Deep work timer</h1>
 <br>
 This is a simplistic deep work tracker.<br>
-In case you want to upgrade it further, please do so.
 <br>
 <h3>Instalation:</h3>
 <ol>
