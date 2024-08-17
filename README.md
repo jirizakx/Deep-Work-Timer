@@ -2,9 +2,6 @@
 <br>
 This is a simplistic deep work tracker.<br>
 <br>
-<ol>
-  <li></li>
-</ol>
 <h3>Instalation:</h3>
 <ol>
   <li>After downloading, add final directory of this script to path so that it can be used everywhere (e.g. <code>export PATH="$HOME/bin/dw-timer/:$PATH"</code> in .bashrc)</li>
