@@ -1,0 +1,21 @@
+#!/bin/bash
+
+cd ~/bin/dw-timer/
+
+if test -f curr-DWS.tmp; then 
+	echo ''
+	echo Finish current session first!
+	echo ''
+else
+	date +"%Y-%m-%d %H:%M:%S" > curr-DWS.tmp
+	echo ''
+	python -c "from src import *; user_input(manual=True)"
+	echo ""
+	echo "Time spent working today:"
+	python -c "from src import *; print('>>', f'{work_today()} hrs', '<<')"
+	echo "Good job!"
+	echo ""
+	rm curr-DWS.tmp
+fi
+
+cd - > /dev/null

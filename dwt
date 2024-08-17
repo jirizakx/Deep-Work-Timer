@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd ~/bin/dw-timer/
+
+echo ""
+echo "Last 7 days recorded:"
+echo ""
+python -c "from src import *; stats()"
+echo ''
+python -c "from src import *; print('All-time DW time:', work_all(), 'hrs')"
+echo ''
+
+cd - > /dev/null
